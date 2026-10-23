@@ -125,6 +125,16 @@ table.tt{border-collapse:collapse;width:100%;min-width:760px;font-size:.9rem;fon
 .apply-grid > div{border-top:4px solid var(--orange);padding-top:14px;display:grid;gap:8px;align-content:start}
 .ph{background:color-mix(in srgb,var(--orange) 30%,transparent);padding:0 4px;border-radius:3px}
 
+/* Sponsors */
+.sponsors{padding-block:40px;background:var(--sheet)}
+.sp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:18px}
+.sp{border:1px solid var(--line);min-height:110px;display:grid;place-items:center;text-align:center;padding:16px;gap:6px}
+.sp.main{background:#fff}
+.sp img{max-height:56px;width:auto}
+.sp b{font-size:1.05rem}
+.sp span{font-size:.82rem;color:var(--muted)}
+.sp.tba{border-style:dashed;color:var(--muted)}
+
 footer{background:var(--purple-deep);color:#E9DDEE}
 footer .wrap{padding-block:26px;display:flex;gap:16px 40px;flex-wrap:wrap;justify-content:space-between;font-size:.9rem}
 footer a{color:#fff}
@@ -142,6 +152,7 @@ footer a{color:#fff}
       <a href="#social">Excursions</a>
       <a href="#travel">Getting here</a>
       <a href="#committee">Committee</a>
+      <a href="#sponsors">Sponsors</a>
       <a class="apply-link" href="https://ieeemagnetics.org/membership/educational-outreach/summer-school" target="_blank" rel="noopener">Apply</a>
     </nav>
   </div>
@@ -333,6 +344,17 @@ footer a{color:#fff}
 <div class="strip bottom" aria-hidden="true"><div class="row">
   <img src="img/lecture-hall.jpg" alt=""><img src="img/lobby.jpg" alt=""><img src="img/tram.jpg" alt=""><img src="img/boat.jpg" alt=""><img src="img/seurasaari-bridge.jpg" alt=""><img src="img/seurasaari-villa.jpg" alt=""><img src="img/sauna.jpg" alt=""><img src="img/sauna-hottub.jpg" alt=""><img src="img/seurasaari-museum.jpg" alt="">
 </div></div>
+<section class="sponsors" id="sponsors" aria-labelledby="sp-h">
+  <div class="wrap">
+    <p class="eyebrow">Supported by</p>
+    <h2 id="sp-h">Sponsors</h2>
+    <div class="sp-grid">
+      <div class="sp main"><img src="img/ieee-magnetics.png" alt="IEEE Magnetics Society"></div>
+      <div class="sp"><div><b>Aalto University</b><span>Department of Applied Physics, host</span></div></div>
+      <div class="sp tba"><span>[Further sponsors to be announced]</span></div>
+    </div>
+  </div>
+</section>
 <footer>
   <div class="wrap">
     <p>IEEE Magnetics Society Summer School 2027 · Aalto University, Otaniemi, Espoo, Finland · 13–18 June 2027</p>
